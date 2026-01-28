@@ -8,4 +8,7 @@
 <img width="600" height="146" alt="image" src="https://github.com/user-attachments/assets/75f6027b-d021-4e90-9187-b5c3acfea4ec" />
 4. Mac일 경우 `Documents`에 프로젝트 생성하기 / Windows도 문서 디렉토리 안에다가 만들기 (C드라이브에 생성)
 
+<img width="792" height="383" alt="스크린샷 2026-01-28 오후 3 13 49" src="https://github.com/user-attachments/assets/778120f8-2bb6-4076-b9e4-495619330386" />
+
 ---
+
