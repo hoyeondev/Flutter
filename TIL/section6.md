@@ -12,3 +12,26 @@
 
 ---
 
+### 2. 화면 중앙에 글자 렌더링하기
+
+```dart
+import 'package:flutter/material.dart';
+
+/// 'android/app/build.gradle'
+void main(){
+  /// 플러터 앱을 실행한다.
+  runApp(
+    /// MeterialApp은 항상 최상위에 위치한다.
+    /// Scaffold는 바로 아래에 위치한다.
+    MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child:Text(
+              'Hello World'
+          ),
+        ) // Text
+      ), //Scaffold
+    ), // MaterialApp
+  );
+}
+```
