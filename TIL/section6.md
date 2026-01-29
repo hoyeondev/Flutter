@@ -53,4 +53,10 @@ flutter run
 
 # 시뮬레이터 디바이스 확인
  xcrun simctl list devices
+
+# 아이폰16 실행
+xcrun simctl boot "iPhone 16"
+
+# 아이폰16 바로 바로 flutter 실행
+xcrun simctl boot "iPhone 16"
 ```
