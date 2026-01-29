@@ -50,4 +50,7 @@ void main(){
 ```
 open -a Simulator
 flutter run
+
+# 시뮬레이터 디바이스 확인
+ xcrun simctl list devices
 ```
