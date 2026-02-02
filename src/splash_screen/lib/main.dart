@@ -29,6 +29,8 @@ class HomeScreen extends StatelessWidget {
               Image.asset(
                 'asset/img/logo.png',
               ),
+              // 간격을 사용할 때 padding보다 sizedbox가 유용할 수 있다.
+              SizedBox(height: 28.0),
               CircularProgressIndicator(
                 color: Colors.white,
               ),
