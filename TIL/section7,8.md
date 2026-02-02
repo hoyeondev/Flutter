@@ -22,3 +22,11 @@ YAML은 사람이 쉽게 읽고 쓸 수 있는 데이터 직렬화 언어이다.
 
 #### pubspec.yaml에 이미지 등록
 <img width="690" height="506" alt="스크린샷 2026-01-29 오후 5 41 04" src="https://github.com/user-attachments/assets/47ab2387-aab5-48b7-a818-735d1c288495" />
+
+#### stless 단축어 사용해서 StatelessWidget 생성하기
+```
+1. 새 파일 생성 또는 기존 파일에서 `stless` 입력
+2. `Tab` 또는 `Enter` 키 누르기
+3. 클래스 이름이 하이라이트되면 원하는 이름 입력
+4. `Enter`로 다음 포커스로 이동하며 코드 작성
+```
