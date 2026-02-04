@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
         child: Container(
           color: Colors.black,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: colors.map(
             (e) => Container(
               height: 50.0,
