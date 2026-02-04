@@ -8,31 +8,49 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(
-          color: Colors.black,
-          height: double.infinity,
-          child: Column(
-            children: [
-              Expanded(
-                child: Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: colors.map((e) =>
+              Container(
+                height: 50.0,
+                width: 50.0,
+                color: e,
+              )).toList(),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
                   height: 50.0,
                   width: 50.0,
-                  color: Colors.red,
-                ),
-              ),
-              Container(
-                height: 50.0,
-                width: 50.0,
-                color: Colors.orange,
-              ),
-              Container(
-                height: 50.0,
-                width: 50.0,
-                color: Colors.yellow,
-              ),
-            ],
-          ),
-        ),
+                  color: Colors.orange,
+                )
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: colors.map((e) =>
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: e,
+                  )).toList(),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 50.0,
+                  width: 50.0,
+                  color: Colors.green,
+                )
+              ],
+            ),
+          ],
+        )
       ),
     );
   }
