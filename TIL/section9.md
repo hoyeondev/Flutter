@@ -35,3 +35,21 @@
 자식 위젯들이 주축 방향으로 오버플로우되면 화면을 벗어나 에러가 발생할 수 있다.
 Expanded나 Flexible 위젯으로 자식을 감싸면 남은 공간을 비율대로 배분할 수 있다.
 중첩해서 사용하면 복잡한 그리드 레이아웃도 만들 수 있다.
+
+
+---
+
+#### 프로젝트 초기화 상태
+```dart
+import 'package:flutter/material.dart';
+import 'package:row_and_column/screen/home_screen.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: HomeScreen(),
+    )
+  );
+}
+
+```
